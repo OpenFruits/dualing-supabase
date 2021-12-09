@@ -10,7 +10,7 @@ const NAV_ITEMS = [
 export const Header: VFC = () => {
   return (
     <header>
-      <h1 className="text-4xl">App Title</h1>
+      <h1 className="text-4xl">Dualing</h1>
       <nav className="text-gray-500">
         {NAV_ITEMS.map((item) => {
           const { href, label } = item;
